@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigasi bar -->
+    <div class="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-transparant fixed-top">
+            <div class="container-fluid">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="image/navbar.png" alt="Bootstrap" width="50" height="44">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> 
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#service">Film</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#product">Karakter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Tentang</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#contact" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Contact
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="https://www.instagram.com/despicableme/?hl=en" target="_blank">Instagram</a></li>
+                                  <li><a class="dropdown-item" href="https://x.com/despicableme?lang=en" target="_blank">Twitter</a></li>
+                                  <li><a class="dropdown-item" href="https://www.tiktok.com/@despicableme?lang=en" target="_blank">Tiktok</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- header -->
+    <section class="jumbotron jumbotron-fluid background-header">
+        <div class="container-fluid text-center">
+            <h1 class="display-3">MINIONS (FILM)</h1>
+            <p class="lead" style="font-weight: bold;">
+                Film komedi animasi Amerika Serikat tahun 2015 yang diproduksi oleh Universal Pictures dan Illumination Entertainment , dan didistribusikan oleh Universal.
+            </p>
+            <a href="https://www.bilibili.tv/id/search-result?q=Despicable%20Me%203" target="_blank" class="btn btn-warning" role="button">Tonton</a>
+            <a href="https://en.wikipedia.org/wiki/Minions_(film)" target="_blank" class="btn btn-outline-warning" role="button">Cari Tahu!</a>
+        </div>
+    </section>
+
+    <!-- service -->
+    <section id="service" class="container-fluid service-style">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+                <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">Daftar Film Minion</h2>
+            </div>
+            <div class="col-12 col-sm6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <li class="fa-solid fa-film fa-stack-1x text-white"></li>
+                </span>
+                <h3 class="mt-4 text-green">Minions</h3>
+                <p>Debut di London pada 11 Juni 2015, dan dirilis di Amerika Serikat pada 10 Juli.</p>
+            </div>
+            <div class="col-12 col-sm6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <li class="fa-solid fa-clapperboard fa-stack-1x text-white"></li>
+                </span>
+                <h3 class="mt-4 text-green">Despicable Me 3</h3>
+                <p>Debut di New York City pada 9 Juni 2024, dan dirilis di Amerika Serikat pada 3 Juli.n</p>
+            </div>
+            <div class="col-12 col-sm6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <li class="fa-solid fa-video fa-stack-1x text-white"></li>
+                </span>
+                <h3 class="mt-4 text-green">Minions: The Rise of Gru</h3>
+                <p>Debut di Festival Film Animasi Internasional Annecy pada 13 Juni 2022, dan dirilis di Amerika Serikat pada 1 Juli.</p>
+            </div>
+            <div class="col-12 col-sm6 col-lg-3">
+                <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x text-green"></i>
+                    <li class="fa-regular fa-file-video fa-stack-1x text-white"></li>
+                </span>
+                <h3 class="mt-4 text-green">Despicable Me 4</h3>
+                <p>Debut di New York City pada 9 Juni 2024, dan dirilis di Amerika Serikat pada 3 Juli.</p>
+            </div>
+            <div class="col-12 pt-3 mb-5 text-center">
+                <a class="btn bg-green" target="_blank" href="https://en.wikipedia.org/wiki/Despicable_Me" role="button">Lainnya</a>
+            </div>            
+        </div>
+    </section>
+
+    <!-- product -->
+    <section id="product" class="container">
+        <div class="row text-center">
+            <div class="col-12 pb-4">
+                <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">Karakter Minions</h2>
+            </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/34/c2/f5/34c2f59284fcdff709217e14df2250a0.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Stuart</h4>
+                            <p class="card-text">Stuart adalah minion yang memiliki segudang talenta dan mengabdi secara mendalam kepada Gru. Karena talenta yang dimilikinya, Stuart dapat menyamar dengan baik untuk membantu misi Gru</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.ruparupa.com/blog/karakter-minions-yang-populer/" target="_blank" class="btn button-skunder">Detail</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/e3/41/fd/e341fd10e68d9a8af57aa9d9596b98e1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bob</h4>
+                            <p class="card-text">Walaupun terlihat kecil dan polos, kamu tidak boleh meremehkan Bob karena ia berhasil menarik pedang legendaris Excalibur yang tertancap di batu. Hal itu membuatnya merasakan jadi Raja Inggris seharian dan dijuluki sebagai “King Bob”.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.ruparupa.com/blog/karakter-minions-yang-populer/" target="_blank" class="btn button-skunder">Detail</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/14/88/98/1488980a605ecd50e4c08da55f322fe6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Kevin</h4>
+                            <p class="card-text">Awalnya, Kevin adalah minion bermata satu yang pendek, tetapi di Despicable Me 2, ia menjadi lebih tinggi dengan rambut dikuncir seperti buah nanas. Kevin suka meledek dan menggoda minion lainnya. </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="https://www.ruparupa.com/blog/karakter-minions-yang-populer/" target="_blank" class="btn button-skunder">Detail</a>
+                        </div>
+                    </div>                    
+                </div>
+        </div>
+        
+    </section>
+
+    <!-- about -->
+    <section id="about" class="bg-light">
+        <div class="container">
+            <h2 class="display-4 text-center mb-5" style="margin-top: 5rem!important;">Tentang Minions</h2>
+            <div class="row g-0">
+                <div class="col-12 col-md-6">
+                    <div style="padding: 20px;">
+                        <h3 class="display-5 text-center text-green mt-3 mb-3">Alur Cerita</h3>
+                        <p style="text-align: justify;">
+                            Minion, makhluk kuning yang telah lama melayani tuan jahat, merasa kehilangan tujuan setelah terisolasi di gua. Kevin, Stuart, dan Bob mencari tuan baru dan pergi ke New York pada tahun 1968, di mana mereka menemukan Villain-Con dan bergabung dengan supervillain Scarlet Overkill. Mereka gagal dalam rencana mencuri Mahkota Negara Kekaisaran dari Ratu Inggris, menyebabkan kekacauan dan penangkapan. Kevin tumbuh menjadi raksasa, menghancurkan kastil Scarlet, dan menyelamatkan teman-temannya. Setelah mengalahkan Scarlet, mereka dihargai oleh Ratu Elizabeth II, tetapi Scarlet dan Herb kembali mencuri mahkota, hanya untuk dihentikan oleh Gru muda, yang membuat Minion memutuskan bahwa dia adalah bos yang mereka cari.
+                        </p>
+                        <div class="col-12 pt-3 text-center">
+                            <a href="https://id.wikipedia.org/wiki/Minions" target="_blank" class="btn button-skunder">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="cover" style="height: 50vh; background-image: url(https://i.pinimg.com/736x/bf/d9/2b/bfd92b2467947be3effbae9b80795075.jpg); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="cover" style="height: 50vh; background-image: url(https://i.pinimg.com/736x/bf/d9/2b/bfd92b2467947be3effbae9b80795075.jpg); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div style="padding: 20px;">
+                        <h3 class="display-5 text-center text-green mt-3 mb-3">Produksi</h3>
+                        <p style="text-align: justify;">
+                            Pada Juli 2012, Universal Studios dan Illumination Entertainment mengumumkan film spin-off Minion dari Despicable Me, yang awalnya dijadwalkan rilis pada 2014. Brian Lynch, penulis Hop (2011) dan Puss in Boots (2011), ditugaskan menulis skenario. Pada Agustus 2012, tanggal rilis ditetapkan pada 19 Desember 2014. Sandra Bullock dan Jon Hamm bergabung sebagai pengisi suara Scarlet dan Herb Overkill. Namun, pada September 2013, rilis film diundur hingga 10 Juli 2015 untuk memanfaatkan musim panas setelah kesuksesan Despicable Me 2.
+                        </p>
+                        <div class="col-12 pt-3 text-center">
+                            <a href="https://id.wikipedia.org/wiki/Minions" target="_blank" class="btn button-skunder">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="container-fluid text-center" style="background-color: #6DC5D1; padding: 3rem 1rem; position: relative; color: #fff;">
+        <h2 class="display-4 pb-2">Despicable Me</h2>
+        <p class="lead pb-3" style="font-style: italic; font-size: 1.2rem; line-height: 1.5;">
+            Despicable Me adalah waralaba media Amerika yang dibuat oleh Sergio Pablos, Cinco Paul, dan Ken Daurio. Film ini berpusat pada mantan penjahat super yang menjadi agen rahasia bernama Gru, putri angkatnya, Margo, Edith, dan Agnes, serta Minion berwarna kuning miliknya. Waralaba ini diproduksi oleh Illumination dan didistribusikan oleh perusahaan induknya Universal Pictures.
+            <br><br>
+            Waralaba ini dimulai dengan film tahun 2010 dengan nama yang sama, diikuti oleh tiga sekuel: Despicable Me 2 (2013), Despicable Me 3 (2017), dan Despicable Me 4 (2024), serta dua prekuel spin-off: Minions (2015) dan Minions: The Rise of Gru (2022). Waralaba ini juga mencakup banyak film pendek, acara televisi spesial, beberapa permainan video, dan atraksi taman hiburan.
+        </p>
+        <a href="https://www.instagram.com/despicableme/?hl=en" target="_blank" class="btn btn-contact btn-lg mb-4">
+            Contact
+        </a>
+        
+        <!-- Decorative Background -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url('https://example.com/your-image.jpg'); background-size: cover; background-position: center; filter: blur(8px); z-index: -1;"></div>
+        
+        <!-- Overlay to darken background image and enhance text readability -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.3); z-index: -1;"></div>
+    </section>
+    
+    <footer class="bg-dark">
+        <div class="col-lg-12" style="padding: 10px;">
+            <div style="text-align: center;">
+                <a href="#" class="text-green" style="padding: 5px;"> <i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-green" style="padding: 5px;"> <i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-green" style="padding: 5px;"> <i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-center text-secondary">Copyright &copy Nita 2020</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8e6b77cca5.js" crossorigin="anonymous"></script>
+</body>
+</html>
